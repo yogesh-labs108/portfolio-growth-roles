@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yogesh T. — Retention, Funnels &amp; Growth Strategy</title>
+  <meta name="description" content="Portfolio of Yogesh T. — growth analyst / strategy. Retention analytics, funnel diagnosis, experiment design, and measurable next steps." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta property="og:title" content="Yogesh T. — Portfolio" />
+  <meta property="og:description" content="Retention, funnels, and the next move." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/portrait.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0a'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Impact,Arial Narrow,sans-serif' font-size='40' fill='%23f3ecd2'%3EY%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <span class="preloader__name">YOGESH T.</span>
+      <span class="preloader__count" id="preloaderCount">0</span>
+      <div class="preloader__bar"><span id="preloaderBar"></span></div>
+    </div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"><span class="cursor__label"></span></div>
+  </div>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Ambient blobs -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__blob ambient__blob--1" data-depth="0.04"></div>
+    <div class="ambient__blob ambient__blob--2" data-depth="0.07"></div>
+    <div class="ambient__blob ambient__blob--3" data-depth="0.03"></div>
+  </div>
+
+  <!-- Scroll progress -->
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" data-cursor="hover">Y<span>T.</span></a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#about" data-cursor="hover">About</a>
+      <a href="#journey" data-cursor="hover">Journey</a>
+      <a href="#toolkit" data-cursor="hover">Toolkit</a>
+      <a href="#bring" data-cursor="hover">Bring</a>
+      <a href="#work" data-cursor="hover">Work</a>
+      <a href="#process" data-cursor="hover">Process</a>
+      <a href="#contact" class="nav__cta" data-cursor="hover">Let's talk</a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__wave hero__wave--tl" aria-hidden="true"></div>
+      <div class="hero__wave hero__wave--br" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal"><span class="pulse"></span> Open to growth analyst &amp; growth strategy roles</p>
+        <h1 class="hero__title" id="heroTitle" aria-label="Yogesh T.">
+          <span class="hero__word" data-split>YOGESH</span>
+          <span class="hero__word hero__word--accent" data-split>T.</span>
+        </h1>
+        <p class="hero__tagline reveal" data-delay="600">
+          <span class="rotate" id="rotator">
+            <span class="rotate__item is-active">Find the drop-off.</span>
+            <span class="rotate__item">Prove what to test.</span>
+            <span class="rotate__item">Spend where it pays back.</span>
+          </span>
+        </p>
+        <div class="hero__actions reveal" data-delay="800">
+          <a href="#about" class="btn btn--primary magnetic" data-cursor="hover">
+            <span>View my portfolio</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a href="#work" class="btn btn--ghost magnetic" data-cursor="hover"><span>See Growth Lab</span></a>
+        </div>
+      </div>
+
+      <div class="hero__scroll reveal" data-delay="1200" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+
+      <div class="hero__meta reveal" data-delay="1000">
+        <span>Growth · Retention · Funnels</span>
+        <span>SQL + experiment design</span>
+        <span>India · Remote</span>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="portrait tilt" data-tilt>
+            <div class="portrait__glow"></div>
+            <img src="assets/img/portrait.jpg" alt="Portrait of Yogesh T." width="672" height="843" loading="eager" />
+            <div class="portrait__badge">
+              <span class="portrait__badge-dot"></span> Available for work
+            </div>
+          </div>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num"><span data-count="3">0</span>.42M</span>
+              <span class="stat__label">Orders analyzed</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num"><span data-count="10">0</span>x</span>
+              <span class="stat__label">Lapse risk spike (weekly)</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num"><span data-count="2">0</span>+</span>
+              <span class="stat__label">Years in growth work</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__copy">
+          <h2 class="heading reveal">
+            <span class="heading__line">About</span>
+            <span class="heading__line heading__line--muted">Me</span>
+          </h2>
+          <p class="about__lead reveal" data-delay="100">
+            I find where people drop off<br />and what would bring them back.
+          </p>
+          <p class="reveal" data-delay="200">
+            I'm a <mark>growth-minded analyst</mark> who uses SQL, funnels, and experiments to turn messy questions into a clear next step.
+          </p>
+          <p class="reveal" data-delay="300">
+            ClickBy taught me campaign and conversion work. Growth Lab is how I prove retention decisions with evidence before spend. Engineering at Arcadia is how I ship the checks that make analysis trustworthy.
+          </p>
+          <p class="reveal" data-delay="400">
+            I'm particularly interested in the <mark>intersection of technology, user engagement, experimentation, and business growth</mark>.
+          </p>
+          <div class="about__tags reveal" data-delay="500">
+            <span>Product thinking</span><span>Experimentation</span><span>User behavior</span><span>AI workflows</span><span>Growth strategy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="education__grid">
+          <h2 class="heading heading--stack reveal">
+            <span class="heading__line">Education</span>
+          </h2>
+
+          <div class="timeline">
+            <div class="timeline__line" aria-hidden="true"><span id="timelineFill"></span></div>
+
+            <article class="timeline__item reveal">
+              <div class="timeline__dot"></div>
+              <div class="card card--outline">
+                <div class="card__pips" aria-hidden="true"><i></i><i></i><i></i></div>
+                <h3 class="card__title">Anna University</h3>
+                <p class="card__sub">Kumaraguru College of Technology</p>
+                <p class="card__hl">BE, Electronics and Communication Engineering</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== JOURNEY ===================== -->
+    <section class="section journey" id="journey">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">Professional</span>
+          <span class="heading__line heading__line--muted">Journey</span>
+        </h2>
+        <p class="section__sub reveal" data-delay="80">Newest first · work and club roles in one path</p>
+
+        <div class="path">
+          <div class="path__line" aria-hidden="true"></div>
+
+          <article class="path__item reveal" data-cursor="hover">
+            <div class="path__when"><span>Apr 2022 – Jul 2024</span></div>
+            <div class="path__dot" aria-hidden="true"></div>
+            <div class="path__card">
+              <div class="path__logo path__logo--clickby">
+                <img src="assets/img/logo-clickby.png" alt="" width="64" height="64" loading="lazy" />
+              </div>
+              <div class="path__body">
+                <p class="path__org">ClickBy Digital Pvt. Ltd. · India</p>
+                <h3>Growth &amp; Digital Strategist</h3>
+                <p>Ran growth from funnel and campaign metrics — CTR, CPC, CPA, conversion, engagement — into acquisition and conversion next steps across Meta, YouTube, and client delivery.</p>
+                <ul class="path__chips">
+                  <li>Funnel analysis</li><li>Campaign performance</li><li>Conversion</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="path__item reveal" data-delay="80" data-cursor="hover">
+            <div class="path__when"><span>Aug 2024 – Present</span></div>
+            <div class="path__dot" aria-hidden="true"></div>
+            <div class="path__card">
+              <div class="path__logo path__logo--arcadia">
+                <img src="assets/img/logo-arcadia.png" alt="" width="64" height="64" loading="lazy" />
+              </div>
+              <div class="path__body">
+                <p class="path__org">Arcadia · Washington, D.C., USA</p>
+                <h3>Software Engineer II</h3>
+                <p>Support story: ship reliable production checks and use logs/data to catch the same defect the same way — including EQV for extraction QA.</p>
+                <ul class="path__chips">
+                  <li>Quality systems</li><li>Workflow automation</li><li>Cross-team delivery</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="path__item reveal" data-delay="140" data-cursor="hover">
+
+
+            <div class="path__when"><span>Sep 2021 – Mar 2022</span></div>
+            <div class="path__dot" aria-hidden="true"></div>
+            <div class="path__card">
+              <div class="path__logo path__logo--text" aria-hidden="true">RAC</div>
+              <div class="path__body">
+                <p class="path__org">RAC — Robotics and Automation Club</p>
+                <h3>Growth Strategist</h3>
+                <p>Owned ideation and planning for club growth, outreach, and member initiatives.</p>
+                <ul class="path__chips">
+                  <li>Club growth</li><li>Strategy</li><li>Initiatives</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="path__item reveal" data-delay="200" data-cursor="hover">
+            <div class="path__when"><span>Jan 2021 – Sep 2021</span></div>
+            <div class="path__dot" aria-hidden="true"></div>
+            <div class="path__card">
+              <div class="path__logo path__logo--text" aria-hidden="true">RAC</div>
+              <div class="path__body">
+                <p class="path__org">RAC — Robotics and Automation Club</p>
+                <h3>Software Probation Member</h3>
+                <p>Built software with the team — first exposure to shipping code, debugging, and collaboration.</p>
+                <ul class="path__chips">
+                  <li>Software</li><li>Collaboration</li><li>Problem-solving</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TOOLKIT ===================== -->
+    <section class="section toolkit" id="toolkit">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">AI &amp; Tech</span>
+          <span class="heading__line heading__line--muted">Toolkit</span>
+        </h2>
+      </div>
+
+      <div class="marquee reveal" data-direction="left">
+        <div class="marquee__track">
+          <div class="tool tool--wordmark"><img src="assets/img/tool-claude.png" alt="Claude" loading="lazy" /></div>
+          <div class="tool"><img src="assets/img/tool-chatgpt.png" alt="" loading="lazy" /><span>ChatGPT</span></div>
+          <div class="tool"><img src="assets/img/tool-cursor.png" alt="" loading="lazy" /><span>Cursor</span></div>
+          <div class="tool tool--wordmark"><img src="assets/img/tool-gemini.png" alt="Gemini" loading="lazy" /></div>
+          <div class="tool tool--wordmark"><img src="assets/img/tool-genai.png" alt="GenAI" loading="lazy" /></div>
+          <div class="tool tool--mono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="6" r="1.6"/><circle cx="20" cy="6" r="1.6"/><circle cx="4" cy="18" r="1.6"/><circle cx="20" cy="18" r="1.6"/><path d="M9.5 10.5 5.3 7M14.5 10.5l4.2-3.5M9.5 13.5 5.3 17M14.5 13.5l4.2 3.5"/></svg><span>LLMs</span></div>
+          <div class="tool tool--mono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg><span>Engineering</span></div>
+        </div>
+      </div>
+
+      <div class="marquee reveal" data-direction="right" data-delay="100">
+        <div class="marquee__track">
+          <div class="tool tool--text">Python</div>
+          <div class="tool tool--text">Bash</div>
+          <div class="tool tool--text">Java</div>
+          <div class="tool tool--text">MySQL</div>
+          <div class="tool tool--text">SQL</div>
+          <div class="tool tool--text">Power BI</div>
+          <div class="tool tool--text">Git</div>
+          <div class="tool tool--text">Jira</div>
+          <div class="tool tool--text">CRM / CLM</div>
+          <div class="tool tool--text">A/B Testing</div>
+          <div class="tool tool--text">Cursor Skills &amp; Workflows</div>
+          <div class="tool tool--text">Prompt Engineering</div>
+          <div class="tool tool--text">Automation</div>
+          <div class="tool tool--text">Analytics</div>
+          <div class="tool tool--text">Growth Strategy</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHAT I BRING ===================== -->
+    <section class="section bring" id="bring">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">What I</span>
+          <span class="heading__line heading__line--muted">Bring</span>
+        </h2>
+        <div class="skills">
+          <article class="skill reveal">
+            <span class="skill__num">01</span>
+            <h3>Engineering DNA</h3>
+            <p class="skill__sub">Technical Skills</p>
+            <dl class="skill__rows">
+              <div><dt>Languages</dt><dd>Java, Python, SQL</dd></div>
+              <div><dt>Frameworks</dt><dd>FastAPI — REST services in Python</dd></div>
+              <div><dt>MySQL</dt><dd>Queries, joins, audits, data validation, before/after comparisons</dd></div>
+              <div><dt>Power BI</dt><dd>Dashboards, visuals, and sharing insights from tabular data</dd></div>
+              <div><dt>Excel</dt><dd>Basic analysis, unit-economics models, and scenario checks</dd></div>
+              <div><dt>Automation</dt><dd>Python &amp; Bash scripting, workflow automation</dd></div>
+              <div><dt>Tools</dt><dd>Git, GitHub, Jira, Eclipse, Cursor</dd></div>
+              <div><dt>AI</dt><dd>Claude, ChatGPT, Cursor, Gemini</dd></div>
+              <div><dt>Debugging</dt><dd>Root-cause analysis, log analysis, defect isolation</dd></div>
+              <div><dt>Engineering</dt><dd>API workflows, data parsing, structured investigation</dd></div>
+            </dl>
+          </article>
+
+          <article class="skill reveal" data-delay="120">
+            <span class="skill__num">02</span>
+            <h3>Engine to Ship</h3>
+            <p class="skill__sub">Non-Tech Skills</p>
+            <dl class="skill__rows">
+              <div><dt>Growth thinking</dt><dd>Turn ideas into measurable experiments</dd></div>
+              <div><dt>CRM / CLM</dt><dd>Basics of CRM journeys and customer lifecycle (acquisition → habit → win-back)</dd></div>
+              <div><dt>A/B testing</dt><dd>Basics of control vs treatment, primary metrics, baseline, and lift</dd></div>
+              <div><dt>Problem solving</dt><dd>Break ambiguous problems into actionable steps</dd></div>
+              <div><dt>Execution</dt><dd>Take work from brief → build → test → refine</dd></div>
+              <div><dt>Analysis</dt><dd>Identify patterns, gaps, drop-offs and opportunities</dd></div>
+              <div><dt>Documentation</dt><dd>Clear reports, tickets, briefs and workflows</dd></div>
+              <div><dt>Process</dt><dd>Build repeatable systems instead of repetitive work</dd></div>
+              <div><dt>Collaboration</dt><dd>Work across engineering, production, creative and business teams</dd></div>
+              <div><dt>AI workflows</dt><dd>Use AI to accelerate research, execution and iteration</dd></div>
+            </dl>
+          </article>
+
+          <article class="skill reveal" data-delay="240">
+            <span class="skill__num">03</span>
+            <h3>Story Instinct</h3>
+            <p class="skill__sub">Audience Brain</p>
+            <dl class="skill__rows">
+              <div><dt>Audience</dt><dd>Understand what makes readers/listeners continue</dd></div>
+              <div><dt>Story sense</dt><dd>Hooks, pacing, escalation, payoff and cliffhangers</dd></div>
+              <div><dt>Content</dt><dd>Identify strong premises, weak beats and missed opportunities</dd></div>
+              <div><dt>Retention</dt><dd>Think in terms of curiosity, anticipation and episode-to-episode pull</dd></div>
+              <div><dt>Adaptation</dt><dd>Localize stories without losing their emotional core</dd></div>
+              <div><dt>Research</dt><dd>Manga, anime, web novels and long-running serialized fiction</dd></div>
+              <div><dt>Writing</dt><dd>Character-driven storytelling, dialogue, promos and narrative development</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORK ===================== -->
+    <section class="section work" id="work">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">What I've</span>
+          <span class="heading__line heading__line--muted">Built</span>
+        </h2>
+        <p class="section__sub reveal" data-delay="100">Retention analytics first — then tools that catch drop-off and protect quality.</p>
+
+        <div class="work__index reveal" data-delay="200">
+          <button class="work__tab is-active" data-project="growth" data-cursor="hover">
+            <span class="work__tab-num">Project 01</span>
+            <img src="assets/img/icon-growth.png" alt="" loading="lazy" />
+            <strong>Retention &amp; Growth Lab</strong>
+            <span>SQL Retention, Experiments &amp; Unit Economics</span>
+          </button>
+          <button class="work__tab" data-project="preflight" data-cursor="hover">
+            <span class="work__tab-num">Project 02</span>
+            <img src="assets/img/icon-preflight.png" alt="" loading="lazy" />
+            <strong>PreFlight</strong>
+            <span>Pre-Production Story Analysis for Audio</span>
+          </button>
+          <button class="work__tab" data-project="eqv" data-cursor="hover">
+            <span class="work__tab-num">Project 03</span>
+            <img src="assets/img/icon-eqv.png" alt="" loading="lazy" />
+            <strong>Extraction Quality Validator</strong>
+            <span>AI-Assisted QA Automation</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Project 01 -->
+      <article class="project" id="project-growth" data-project-panel="growth">
+        <div class="container project__grid">
+          <div class="project__visual reveal">
+            <h3 class="heading heading--sm">
+              <span class="heading__line">What is the</span>
+              <span class="heading__line heading__line--muted">Growth Lab?</span>
+            </h3>
+            <div class="laptop tilt" data-tilt data-cursor="view" data-lightbox="assets/img/shot-growth.png" data-lightbox-title="Retention &amp; Growth Lab">
+              <div class="laptop__screen">
+                <img src="assets/img/shot-growth.png" alt="Retention and Growth Lab summary board" width="615" height="383" loading="lazy" />
+              </div>
+              <div class="laptop__base"></div>
+            </div>
+          </div>
+
+          <div class="project__copy">
+            <p class="project__intro reveal">When a food-delivery user goes quiet for a month — are they leaving, or just shopping that way? I answered that on <strong>3.42 million real Instacart orders</strong> with SQL, then designed the first win-back test and checked whether a coupon would pay back.</p>
+
+            <div class="accordion reveal" data-delay="100">
+              <details open>
+                <summary data-cursor="hover">What I built</summary>
+                <p>A full retention pipeline: SQL segments and lapse risk, an A/B experiment design (sample size, readout, guardrails), an Excel unit-economics model (LTV / CAC / coupon ROI), and a Streamlit dashboard. Same idea as CRM win-back — but with evidence before spend.</p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Stack</summary>
+                <ul class="stack"><li>Python</li><li>SQL</li><li>Streamlit</li><li>Excel</li><li>A/B design</li></ul>
+              </details>
+              <details open>
+                <summary data-cursor="hover">My part</summary>
+                <p>I built clean fact tables, the analyses, sample sizing, a simulated A/B readout on real control outcomes, and the money model. <strong>Behaviour is real. Treatment lift is simulated. Rupee figures are assumptions.</strong></p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Impact</summary>
+                <ul class="impact">
+                  <li>Target win-back at frequent users right after their first lapse — not every quiet user</li>
+                  <li>Test a free nudge before a blanket coupon</li>
+                  <li>Clear line between real behaviour and simulated campaign results</li>
+                </ul>
+              </details>
+            </div>
+
+            <div class="project__flow reveal" data-delay="200" aria-label="Pipeline">
+              <span>Orders</span><i></i><span>SQL segments</span><i></i><span>A/B design</span><i></i><span>Unit economics</span><i></i><span>Decision memo</span>
+            </div>
+
+            <div class="project__links reveal" data-delay="260">
+              <a class="btn btn--ghost magnetic" href="https://github.com/yogesh-labs108/retention-growth-lab" target="_blank" rel="noopener" data-cursor="hover"><span>View on GitHub ↗</span></a>
+              <a class="btn btn--ghost magnetic" href="https://github.com/yogesh-labs108/retention-growth-lab/blob/main/docs/memo.md" target="_blank" rel="noopener" data-cursor="hover"><span>Decision memo</span></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="project project--alt" id="project-preflight" data-project-panel="preflight">
+        <div class="container project__grid">
+          <div class="project__visual reveal">
+            <h3 class="heading heading--sm">
+              <span class="heading__line">What is</span>
+              <span class="heading__line heading__line--muted">PreFlight?</span>
+            </h3>
+            <div class="laptop tilt" data-tilt data-cursor="view" data-lightbox="assets/img/shot-preflight.png" data-lightbox-title="PreFlight — The Ninth Furnace, verdict ADAPT">
+              <div class="laptop__screen">
+                <img src="assets/img/shot-preflight.png" alt="PreFlight review board for the example novel The Ninth Furnace" width="615" height="383" loading="lazy" />
+              </div>
+              <div class="laptop__base"></div>
+            </div>
+          </div>
+
+          <div class="project__copy">
+            <p class="project__intro reveal">Before a web novel becomes an audio series, PreFlight flags where listeners are likely to drop off — and how to fix it — so money is not spent recording a weak episode plan.</p>
+
+            <div class="accordion reveal" data-delay="100">
+              <details open>
+                <summary data-cursor="hover">What I built</summary>
+                <p>A story review tool. It reads the chapters, points to the exact lines where listeners may lose interest, splits the chapters into episodes that each end on a cliffhanger, and rewrites weak openings and endings. Every novel gets one of three results: <strong>GO</strong> (ready to record), <strong>ADAPT</strong> (fix the episode plan first) or <strong>HOLD</strong> (the story itself needs work).</p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Stack</summary>
+                <ul class="stack"><li>Cursor</li><li>Python</li><li>FastAPI</li></ul>
+              </details>
+              <details open>
+                <summary data-cursor="hover">My part</summary>
+                <p>I split the work in two. Python does the counting: how long each chapter is, how many new names it brings in, and where the episodes break. AI does the reading and the rewriting. Every problem it points out must quote a real line from the novel, and the tool checks that the line actually exists, so nothing is made up. All of this happens <strong>before production, not after launch</strong>.</p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Impact</summary>
+                <ul class="impact">
+                  <li>Spots weak episodes before any money is spent on recording</li>
+                  <li>Every episode ends on a hook that brings listeners back</li>
+                  <li>Makes story review faster and consistent</li>
+                </ul>
+              </details>
+            </div>
+
+            <div class="project__flow reveal" data-delay="200" aria-label="Pipeline">
+              <span>Web novel</span><i></i><span>Python measures</span><i></i><span>AI reads</span><i></i><span>Problems backed by quotes</span><i></i><span>Episode plan &amp; rewrites</span>
+            </div>
+
+            <div class="project__links reveal" data-delay="260">
+              <a class="btn btn--ghost magnetic" href="https://github.com/yogesh-labs108/preflight" target="_blank" rel="noopener" data-cursor="hover"><span>View PreFlight on GitHub ↗</span></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="project" id="project-eqv" data-project-panel="eqv">
+        <div class="container project__grid">
+          <div class="project__copy">
+            <p class="project__intro reveal">Give EQV a ticket number. It pulls the utility bill and the extraction log, compares every field, and writes a ticket-ready report — rules first, AI only for judgment calls.</p>
+
+            <div class="accordion reveal" data-delay="100">
+              <details open>
+                <summary data-cursor="hover">What I built</summary>
+                <p>A Cursor workflow and a FastAPI app. A script pulls the bill and the log for the ticket, pairs each bill with its extraction, checks every amount, date and format against the bill, and flags what does not match. Claude is the second pass, for the judgment calls the rules cannot make.</p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Stack</summary>
+                <ul class="stack"><li>Cursor</li><li>Claude</li><li>Python</li><li>FastAPI</li><li>Bash</li></ul>
+              </details>
+              <details open>
+                <summary data-cursor="hover">My part</summary>
+                <p>The exact checks run as code, so the model is only called for judgment. That cut about <strong>20–25K tokens</strong> of AI work on every audit, and the same bill always gets the same answer.</p>
+              </details>
+              <details open>
+                <summary data-cursor="hover">Impact</summary>
+                <ul class="impact">
+                  <li>Ticket number in, ticket-ready report out</li>
+                  <li>Reduced unnecessary AI processing</li>
+                  <li>Standardized error investigation across tickets</li>
+                </ul>
+              </details>
+            </div>
+
+            <div class="project__flow reveal" data-delay="200" aria-label="Pipeline">
+              <span>Ticket</span><i></i><span>Fetch bill &amp; log</span><i></i><span>Script checks fields</span><i></i><span>Model judges the rest</span><i></i><span>Ticket-ready report</span>
+            </div>
+          </div>
+
+          <div class="project__visual reveal">
+            <h3 class="heading heading--sm">
+              <span class="heading__line">What is</span>
+              <span class="heading__line heading__line--muted">EQV?</span>
+            </h3>
+            <div class="laptop tilt" data-tilt data-cursor="view" data-lightbox="assets/img/shot-eqv.png" data-lightbox-title="Extraction Quality Validator">
+              <div class="laptop__screen">
+                <img src="assets/img/shot-eqv.png" alt="Extraction Quality Validator interface" width="615" height="383" loading="lazy" />
+              </div>
+              <div class="laptop__base"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===================== PROCESS ===================== -->
+    <section class="section process" id="process">
+      <div class="container">
+        <h2 class="heading heading--center reveal">
+          <span class="heading__line">How I <span class="heading__line--muted">Work?</span></span>
+        </h2>
+        <p class="ribbon reveal" data-delay="100">Curious enough to question the obvious. Practical enough to ship.</p>
+
+        <div class="principles">
+          <article class="principle reveal" data-cursor="hover">
+            <span class="principle__num">01</span>
+            <h3>I start with the problem.</h3>
+            <p>Before suggesting a solution, I want to understand who experiences the problem, how often it occurs, and why it matters.</p>
+          </article>
+          <article class="principle reveal" data-delay="80" data-cursor="hover">
+            <span class="principle__num">02</span>
+            <h3>I use data to reduce guesswork.</h3>
+            <p>I value evidence, but I also pay attention to its limitations. A metric is useful only when its definition and context are clear.</p>
+          </article>
+          <article class="principle reveal" data-delay="160" data-cursor="hover">
+            <span class="principle__num">03</span>
+            <h3>I prefer small, meaningful experiments.</h3>
+            <p>Rather than committing to a large initiative based on an untested assumption, I'd rather identify a focused experiment that can teach us something useful.</p>
+          </article>
+          <article class="principle reveal" data-delay="240" data-cursor="hover">
+            <span class="principle__num">04</span>
+            <h3>I work across disciplines.</h3>
+            <p>Growth problems rarely belong to a single team. I value clear communication and shared ownership between technical, creative and business stakeholders.</p>
+          </article>
+          <article class="principle reveal" data-delay="320" data-cursor="hover">
+            <span class="principle__num">05</span>
+            <h3>I use AI with intention.</h3>
+            <p>I look for ways to accelerate research, analysis, prototyping, and repetitive tasks while preserving human judgment and accountability.</p>
+          </article>
+          <article class="principle reveal" data-delay="400" data-cursor="hover">
+            <span class="principle__num">06</span>
+            <h3>I care about sustainable results.</h3>
+            <p>An increase in clicks means little if users do not find value. I want to understand the relationship between short-term performance and long-term customer behavior.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="contact__wave contact__wave--l" aria-hidden="true"></div>
+      <div class="contact__wave contact__wave--r" aria-hidden="true"></div>
+
+      <div class="container">
+        <h2 class="heading heading--center heading--xl reveal">
+          <span class="heading__line">Let's <span class="heading__line--muted">Talk!</span></span>
+        </h2>
+        <p class="ribbon reveal" data-delay="100">Have a problem worth solving?</p>
+
+        <div class="contact__copy reveal" data-delay="150">
+          <p>I'm interested in growth analyst and growth strategy conversations — retention, funnels, experiment design, and whether the next spend is worth it.</p>
+          <p>If you're building products, exploring new growth opportunities, or looking for someone who enjoys breaking complex problems into practical steps, I'd love to connect.</p>
+        </div>
+
+        <div class="contact__card reveal" data-delay="250">
+          <div class="contact__name">Yogesh T.</div>
+          <a class="contact__email magnetic" href="mailto:yogesht25022003@gmail.com" data-cursor="hover">yogesht25022003@gmail.com</a>
+          <div class="contact__row">
+            <a class="btn btn--primary magnetic" href="mailto:yogesht25022003@gmail.com?subject=Let%27s%20talk%20growth" data-cursor="hover"><span>Send an email</span></a>
+            <button class="btn btn--ghost magnetic" id="copyEmail" data-copy="yogesht25022003@gmail.com" data-cursor="hover"><span>Copy email</span></button>
+            <a class="btn btn--ghost magnetic" href="tel:+919080896537" data-cursor="hover"><span>+91 90808 96537</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__marquee" aria-hidden="true">
+      <div class="footer__track">
+        <span>Building Products.</span><span>Understanding Market.</span><span>Driving Growth.</span>
+        <span>Building Products.</span><span>Understanding Market.</span><span>Driving Growth.</span>
+      </div>
+    </div>
+    <div class="container footer__bar">
+      <span>© <span id="year"></span> Yogesh T.</span>
+      <span class="footer__time">Local time <span id="localTime">--:--</span> IST</span>
+      <a href="#top" class="footer__top" data-cursor="hover">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close" data-cursor="hover">×</button>
+    <figure>
+      <img id="lightboxImg" src="" alt="" />
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
